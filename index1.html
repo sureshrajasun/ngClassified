@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ngClassifieds</title>
+	</head>
+		<script  src="node_modules/angular/angular.js"></script>		
+
+		<script  src="scripts/app.js"></script>
+		<script  src="components/classifieds.ctr.js" ></script>
+	<body ng-app="ngClassifieds" ng-controller="classifiedsCtrl">
+		
+		<input type="text" placeholder="Enter name" ng-model="name.first"/>
+		<h1>{{ name.first + ' ' + name.last + ' Welcome to Angular js learning.'}}</h1>		
+		<h2> divide ={{ 100/10 }}</h2>
+		<h2> Mod ={{ 7%2 }}</h2>
+
+	</body>
+
+</html> 	
